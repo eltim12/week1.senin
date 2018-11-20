@@ -1,0 +1,79 @@
+=====PROGRAM Newton Second Law=====
+
+store 'mass' with 600
+store 'speed' with 2
+
+calculate 'mass' times 'speed'
+set 'newton' with previous calculation result
+
+display 'newton'
+
+
+
+=====PROGRAM Tahun Kabisat=====
+
+Algorithm: 
+
+1. store 'tahun' dengan nilai apapun
+2. jika 'tahun' mod 4 tidak sama dengan 0 lalu display 'bukan tahun kabisat'
+3. jika 'tahun' mod 100 tidak sama dengan 0 dan 'tahun' mod 400 tidak sama dengan 0 lalu display 'bukan tahun kabisat'
+4. juga tidak memenuhi semua kondisi diatas, display 'tahun ini adalah tahun kabisat'
+
+
+Pseudocode: 
+
+store 'tahun' with any value
+IF 'tahun' mod 4 !== 0 
+    Display 'bukan tahun kabisat'
+ELSE IF 'tahun' mod 100 = 0 && 'tahun' mod 400 !== 0     
+    Display 'bukan tahun kabisat'
+ELSE
+    Display 'tahun ini adalah tahun kabisat'
+
+
+
+=====PROGRAM Laundry Day=====
+
+Algorithm:
+
+1. store 'jumlah baju'
+2. jika 'jumlah baju' lebih kecil dari 21 lalu display 'jumlah baju'
+3. jika 'jumlah baju' sudah sama dengan 20 lalu masukan baju ke mesin cuci
+4. jika 'jumlah baju' belum sama dengan 20 lalu tampung 'jumlah baju' hingga sama dengan 20 dan lanjut ke step 3
+5. jika semua baju sudah di dalam mesin cuci lalu nyalakan mesin cuci
+
+
+Pseudocode:
+
+store 'jumlah baju'
+WHILE 'jumlah baju' < 21
+    Display 'jumlah baju'
+IF 'jumlah baju'= 20
+    Do 'masukan baju ke mesin cuci'
+ELSE IF 'jumlah baju' != 20
+    Do tampung 'jumlah baju' hingga = 20
+Do 'nyalakan mesin cuci'
+
+
+
+=====PROGRAM Periksa Kuku=====
+
+Argorithm:
+
+1. store 'jumlah murid' dengan 0
+2. store 'status kuku'
+4. ulangi step 5 selama 'jumlah murid' masih kurang dari 40
+5. jika 'status kuku' adalah 'panjang' lalu guru akan hukum murid
+6. jika 'status kuku' adalah 'pendek' lalu guru akan puji murid
+
+
+Pseudocode:
+
+store 'jumlah murid' = 0
+store 'status kuku'
+WHILE 'jumlah murid' < 40
+    display 'jumlah murid'
+IF 'status kuku' = 'panjang'
+    Do 'hukum
+ELSE 
+    Do 'puji'
